@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import requests
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 import tempfile
 
@@ -19,7 +19,7 @@ st.set_page_config(
 # url = 'http://api:8000'
 # Example localhost development URL
 # url = 'http://localhost:8000'
-load_dotenv()
+#load_dotenv()
 #url = os.getenv('API_URL')
 # url="https://apiskincancerprevention-hetftldjwa-ew.a.run.app" #initial model
 url="https://apiskincancerpreventionmodelvgg-hetftldjwa-ew.a.run.app"
